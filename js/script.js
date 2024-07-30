@@ -10,3 +10,11 @@ console.log('JS OK')
 5. Chiedo all'utente il suo colore preferito
 6. Genero la password sommando Nome + Cognome + Colore + '21'
 7. Inserisco la password nell'elemento del DOM*/
+
+//Recupero l'elemento del DOM
+const resultElement = document.getElementById('password');
+console.log(resultElement);
+
+//Creo variabile per completare la password
+const number = '21';
+console.log(number);
