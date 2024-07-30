@@ -30,3 +30,10 @@ console.log(lastName);
 //Chiedo all'utente il suo colore preferito
 const favouriteColor = prompt('Qual è il tuo colore preferito?', 'Bianco');
 console.log(favouriteColor);
+
+//Genero la password
+const password = firstName + lastName + favouriteColor + number;
+console.log(password);
+
+//Inserico la password nell'elemento del DOM
+resultElement.innerText = 'La tua password (molto sicura) è: ' + password;
