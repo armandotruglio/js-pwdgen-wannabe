@@ -18,3 +18,15 @@ console.log(resultElement);
 //Creo variabile per completare la password
 const number = '21';
 console.log(number);
+
+//Chiedo all'utente il Nome
+const firstName = prompt('Come ti chiami?', 'Armando');
+console.log(firstName);
+
+//Chiedo all'utente il Cognome
+const lastName = prompt('Qual è il tuo cognome?', 'Truglio');
+console.log(lastName);
+
+//Chiedo all'utente il suo colore preferito
+const favouriteColor = prompt('Qual è il tuo colore preferito?', 'Bianco');
+console.log(favouriteColor);
